@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua; display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    background: linear-gradient(to right bottom , rgb(96, 5, 241),rgb(223, 190, 6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 85%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.cardwrapper{
+    height: 95%;
+    width: 90%;
+    /* background-color: rgb(85, 85, 136); */
+}
+.header{
+    height: 55px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerright{
+    display: flex;
+}
+/* .headerleft{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+} */
+.boyscut{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.username{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+.dots{
+    line-height: 7px;
+    font-size: 30px;
+}
+.icons{
+    height: 40px;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconsmiddle{
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    /* background-color: aquamarine; */
+
+}
+.icon{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+.text{
+    line-height: 20px;
+}
+.temp{
+    display: flex;
+}
